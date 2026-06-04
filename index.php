@@ -54,6 +54,7 @@
                     </div>
                 </div>
             </div>
+            fdsfsdfsdfdsf
             <div class="hero-right">
                 <div class="hero-carousel owl-carousel" aria-label="Hero image slideshow">
                     <div class="hero-slide"><img src="images/newhero1.webp" alt="Luxury Villa" width="600" height="480" fetchpriority="high"></div>
