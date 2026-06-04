@@ -1,0 +1,287 @@
+.page-hero {
+    position: relative;
+    height: 280px;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+}
+/* Background image */
+.page-hero .hero-bg {
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+/* Overlay on image */
+.page-hero .hero-overlay {
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(
+        to bottom,
+        rgba(10, 10, 10, 0.55) 0%,
+        rgba(17, 17, 17, 0.80) 100%
+    );
+}
+/* Red accent */
+.page-hero .hero-overlay::after {
+    content: '';
+    position: absolute;
+    inset: 0;
+    background: radial-gradient(ellipse at 50% 80%, rgb(129, 95, 97, 0.39) 0%, transparent 65%);
+}
+/* Text sits above overlay */
+.page-hero .hero-text {
+    position: relative;
+    z-index: 2;
+    max-width: 1200px;
+    width: 100%;
+    padding: 0 20px;
+    margin: 0 auto;
+    text-align: left;
+}
+
+/* Breadcrumb */
+.page-hero-breadcrumb {
+    font-size: 13px;
+    font-weight: 600;
+    color: rgba(255,255,255,0.5);
+    letter-spacing: 1px;
+    margin-bottom: 14px;
+}
+.page-hero-breadcrumb a {
+    color: rgba(255,255,255,0.5);
+    transition: color 0.3s;
+}
+.page-hero-breadcrumb a:hover { color: #c1121f; }
+.page-hero-breadcrumb span { color: #c1121f; }
+
+/* Page Title */
+.page-hero h1 {
+    font-size: 52px;
+    font-weight: 800;
+    color: #ffffff;
+    line-height: 1.15;
+    margin-bottom: 16px;
+    letter-spacing: -0.5px;
+}
+
+/* Subtitle */
+.page-hero p {
+    font-size: 17px;
+    color: rgba(255,255,255,0.65);
+    max-width: 500px;
+    line-height: 1.7;
+}
+
+/* Red underline accent below h1 */
+.page-hero h1::after {
+    content: '';
+    display: block;
+    width: 60px;
+    height: 3px;
+    background: #c1121f;
+    margin: 14px 0 0;
+    border-radius: 2px;
+}
+
+
+/* ─── SECTION 1: Intro ─── */
+.wwd-intro {
+    padding: 72px 0 60px;
+}
+.wwd-intro-inner {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 64px;
+    align-items: center;
+}
+
+/* Image box */
+.wwd-image {
+    position: relative;
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: 0 24px 60px rgba(0,0,0,0.13);
+}
+.wwd-image img {
+    width: 100%;
+    height: 460px;
+    object-fit: cover;
+    display: block;
+    transition: transform 0.5s ease;
+}
+.wwd-image:hover img { transform: scale(1.03); }
+
+/* Red corner decoration */
+.wwd-image::after {
+    content: '';
+    position: absolute;
+    bottom: -10px;
+    right: -10px;
+    width: 70px;
+    height: 70px;
+    border-bottom: 4px solid #c1121f;
+    border-right: 4px solid #c1121f;
+    border-radius: 0 0 12px 0;
+    pointer-events: none;
+}
+
+/* Stats badge on image */
+.wwd-image-stat {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    background: rgba(17,17,17,0.85);
+    backdrop-filter: blur(8px);
+    border-radius: 12px;
+    padding: 16px 20px;
+    display: flex;
+    gap: 24px;
+}
+.wwd-stat-item { text-align: center; }
+.wwd-stat-num {
+    display: block;
+    font-size: 22px;
+    font-weight: 700;
+    color: #c1121f;
+    line-height: 1;
+}
+.wwd-stat-lbl {
+    font-size: 11px;
+    color: rgba(255,255,255,0.7);
+    font-weight: 500;
+    margin-top: 3px;
+}
+
+/* Text side */
+.wwd-text .section-subtitle { margin-bottom: 8px; }
+.wwd-text h2 {
+    font-size: 36px;
+    font-weight: 700;
+    color: #111111;
+    line-height: 1.25;
+    margin-bottom: 18px;
+}
+.wwd-text h2 span { color: #c1121f; }
+.wwd-text > p {
+    font-size: 15px;
+    color: #555555;
+    line-height: 1.88;
+}
+
+
+/* ─── SECTION 2: Vision & Mission ─── */
+.wwd-vm {
+    padding: 60px 0;
+    background: #f9f9f9;
+}
+.wwd-vm-header {
+    text-align: center;
+    margin-bottom: 36px;
+}
+.wwd-vm-header h2 {
+    font-size: 32px;
+    font-weight: 700;
+    color: #111111;
+    margin-top: 6px;
+}
+.wwd-vm-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 24px;
+}
+.wwd-vm-card {
+    background: #ffffff;
+    border-radius: 12px;
+    padding: 32px 28px;
+    border-left: 4px solid #c1121f;
+    box-shadow: 0 2px 12px rgba(0,0,0,0.06);
+    transition: transform 0.25s ease, box-shadow 0.25s ease;
+}
+.wwd-vm-card:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 8px 28px rgba(0,0,0,0.1);
+}
+.wwd-vm-card h3 {
+    font-size: 18px;
+    font-weight: 700;
+    color: #111111;
+    margin-bottom: 10px;
+}
+.wwd-vm-card p {
+    font-size: 15px;
+    color: #555555;
+    line-height: 1.8;
+}
+
+
+/* ─── SECTION 3: Why Choose Us ─── */
+.wwd-why {
+    padding: 60px 0;
+    background: #ffffff;
+}
+.wwd-why-header {
+    text-align: center;
+    margin-bottom: 36px;
+}
+.wwd-why-header h2 {
+    font-size: 32px;
+    font-weight: 700;
+    color: #111111;
+    margin-top: 6px;
+}
+.wwd-why-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+.wwd-why-card {
+    background: #ffffff;
+    border-radius: 12px;
+    padding: 28px 24px;
+    border-left: 4px solid #c1121f;
+    box-shadow: 0 2px 12px rgba(0,0,0,0.06);
+    transition: transform 0.25s ease, box-shadow 0.25s ease;
+}
+.wwd-why-card:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 8px 28px rgba(0,0,0,0.1);
+}
+.wwd-why-card h4 {
+    font-size: 15px;
+    font-weight: 700;
+    color: #111111;
+    margin-bottom: 8px;
+}
+.wwd-why-card p {
+    font-size: 14px;
+    color: #666666;
+    line-height: 1.7;
+}
+
+
+/* ─── Responsive ─── */
+@media (max-width: 1024px) {
+    .wwd-intro-inner { gap: 40px; }
+}
+@media (max-width: 768px) {
+    .page-hero { height: 220px; }
+    .page-hero h1 { font-size: 32px; }
+    .wwd-intro { padding: 50px 0 40px; }
+    .wwd-intro-inner { grid-template-columns: 1fr; gap: 36px; }
+    .wwd-image img { height: 280px; }
+    .wwd-image::after { display: none; }
+    .wwd-text h2,
+    .wwd-vm-header h2,
+    .wwd-why-header h2 { font-size: 26px; }
+    .wwd-vm-grid { grid-template-columns: 1fr; }
+    .wwd-why-grid { grid-template-columns: 1fr 1fr; }
+}
+@media (max-width: 480px) {
+    .page-hero { height: 190px; }
+    .page-hero h1 { font-size: 26px; }
+    .wwd-why-grid { grid-template-columns: 1fr; }
+    .wwd-image-stat { gap: 14px; }
+}

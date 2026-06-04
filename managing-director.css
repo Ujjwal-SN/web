@@ -1,0 +1,236 @@
+.page-hero {
+    position: relative;
+    height: 280px;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    text-align: left;
+}
+
+/* Banner bg img */
+.page-hero .hero-bg {
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
+/*  ovrly on  img */
+.page-hero .hero-overlay {
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(
+        to bottom,
+        rgba(10, 10, 10, 0.55) 0%,
+        rgba(17, 17, 17, 0.80) 100%
+    );
+}
+
+/* Red glow accent */
+.page-hero .hero-overlay::after {
+    content: '';
+    position: absolute;
+    inset: 0;
+    background: radial-gradient(ellipse at 50% 80%, rgba(193,18,31,0.25) 0%, transparent 65%);
+}
+
+/* Hero text sits above overlay */
+.page-hero .hero-text {
+    position: relative;
+    z-index: 2;
+    max-width: 1200px;
+    width: 100%;
+    padding: 0 20px;
+    margin: 0 auto;
+    text-align: left;
+}
+
+/* Breadcrumb */
+.page-hero-breadcrumb {
+    font-size: 13px;
+    font-weight: 600;
+    color: rgba(255,255,255,0.5);
+    letter-spacing: 1px;
+    margin-bottom: 14px;
+}
+.page-hero-breadcrumb a {
+    color: rgba(255,255,255,0.5);
+    transition: color 0.3s;
+}
+.page-hero-breadcrumb a:hover { color: #c1121f; }
+.page-hero-breadcrumb span { color: #c1121f; }
+
+/* Page Title */
+.page-hero h1 {
+    font-size: 52px;
+    font-weight: 800;
+    color: #ffffff;
+    line-height: 1.15;
+    margin-bottom: 16px;
+    letter-spacing: -0.5px;
+}
+
+/* Subtitle */
+.page-hero p {
+    font-size: 17px;
+    color: rgba(255,255,255,0.65);
+    max-width: 500px;
+    line-height: 1.7;
+}
+
+/* Red underline accent below h1 */
+.page-hero h1::after {
+    content: '';
+    display: block;
+    width: 60px;
+    height: 3px;
+    background: #c1121f;
+    margin: 14px 0 0;
+    border-radius: 2px;
+}
+
+
+/* === PROFILE SECTION === */
+.profile-section {
+    padding: 72px 0 60px;
+    background: #ffffff;
+}
+
+/* Two-column layout: image left, content right */
+.profile-inner {
+    display: grid;
+    grid-template-columns: 420px 1fr;
+    gap: 72px;
+    align-items: center;
+}
+
+/* ── Profile Image Card ── */
+.profile-image-card {
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: 0 24px 64px rgba(0,0,0,0.13);
+    position: relative;
+}
+.profile-image-card img {
+    width: 100%;
+    height: 520px;
+    object-fit: cover;
+    display: block;
+    transition: transform 0.5s ease;
+}
+/* Zoom on hover */
+.profile-image-card:hover img {
+    transform: scale(1.03);
+}
+
+/* Name badge over image bottom */
+.profile-image-badge {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: linear-gradient(to top, rgba(17,17,17,0.92) 0%, transparent 100%);
+    padding: 40px 28px 24px;
+}
+.profile-image-badge h3 {
+    font-size: 22px;
+    font-weight: 700;
+    color: #ffffff;
+    margin-bottom: 4px;
+}
+.profile-image-badge p {
+    font-size: 13px;
+    font-weight: 600;
+    color: #c1121f;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+}
+
+/* ── Profile Content ── */
+.profile-content h2 {
+    font-size: 38px;
+    font-weight: 700;
+    color: #111111;
+    line-height: 1.2;
+    margin-bottom: 8px;
+}
+.profile-content .role-label {
+    display: inline-block;
+    font-size: 13px;
+    font-weight: 700;
+    color: #c1121f;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    padding: 4px 12px;
+    background: rgba(193,18,31,0.08);
+    border-radius: 20px;
+}
+.profile-content p {
+    font-size: 15px;
+    color: #555555;
+    line-height: 1.9;
+    margin-bottom: 24px;
+}
+
+/* ── Green Tick Points ── */
+.md-points {
+    margin-top: 22px;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+.md-point {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    font-size: 15px;
+    font-weight: 500;
+    color: #333333;
+    padding: 10px 14px;
+    background: #f9f9f9;
+    border-radius: 8px;
+    transition: background 0.2s;
+}
+.md-point:hover { background: #f0f0f0; }
+
+/* Green circle with checkmark */
+.md-point .tick {
+    width: 24px;
+    height: 24px;
+    background: #22c55e;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+}
+.md-point .tick svg {
+    width: 13px;
+    height: 13px;
+    stroke: #ffffff;
+    stroke-width: 3;
+    fill: none;
+}
+
+
+/* ─── Responsive ─── */
+@media (max-width: 1024px) {
+    .profile-inner { grid-template-columns: 340px 1fr; gap: 48px; }
+    .profile-image-card img { height: 460px; }
+}
+@media (max-width: 768px) {
+    .page-hero { height: 220px; }
+    .page-hero h1 { font-size: 32px; }
+    .profile-section { padding: 40px 0; }
+    .profile-inner { grid-template-columns: 1fr; gap: 36px; }
+    .profile-image-card img { height: 380px; }
+    .profile-content h2 { font-size: 28px; }
+}
+@media (max-width: 480px) {
+    .page-hero { height: 190px; }
+    .page-hero h1 { font-size: 26px; }
+}
