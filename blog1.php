@@ -27,19 +27,19 @@
     <!-- Navbar -->
     <nav class="navbar" id="navbar" aria-label="Main navigation">
         <div class="container nav-inner">
-            <a href="index.html" class="logo">
+            <a href="index.php" class="logo">
              <img src="images/newnexlogo.webp" alt="Nexus Property Logo" class="logo-img" width="120" height="56">
             </a>
             <ul class="nav-menu" id="navMenu">
-                <li><a href="index.html#home">Home</a></li>
-                <li><a href="index.html#about">About Us</a></li>
-                <li><a href="index.html#team">Our Team</a></li>
-                <li><a href="index.html#properties">Property</a></li>
-                <li><a href="index.html#blog">Blog</a></li>
-                <li><a href="index.html#gallery">Gallery &amp; Videos</a></li>
-                <li><a href="index.html#contact">Contact Us</a></li>
+                <li><a href="index.php#home">Home</a></li>
+                <li><a href="index.php#about">About Us</a></li>
+                <li><a href="index.php#team">Our Team</a></li>
+                <li><a href="index.php#properties">Property</a></li>
+                <li><a href="index.php#blog">Blog</a></li>
+                <li><a href="index.php#gallery">Gallery &amp; Videos</a></li>
+                <li><a href="index.php#contact">Contact Us</a></li>
             </ul>
-            <a href="index.html#contact" class="btn-cta">Book Site Visit</a>
+            <a href="index.php#contact" class="btn-cta">Book Site Visit</a>
             <button class="hamburger" id="hamburger" aria-label="Open navigation menu" aria-expanded="false" aria-controls="navMenu">
                 <span></span><span></span><span></span>
             </button>
@@ -49,9 +49,9 @@
     <!-- Breadcrumb -->
     <div class="container">
         <div class="breadcrumb">
-            <a href="index.html">Home</a>
+            <a href="index.php">Home</a>
             <span class="breadcrumb-separator">/</span>
-            <a href="index.html#blog">Blog</a>
+            <a href="index.php#blog">Blog</a>
             <span class="breadcrumb-separator">/</span>
             <span class="breadcrumb-current">Top 5 Luxury Localities to Invest in 2026</span>
         </div>

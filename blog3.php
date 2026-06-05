@@ -27,19 +27,19 @@
     <!-- Navbar -->
     <nav class="navbar" id="navbar" aria-label="Main navigation">
         <div class="container nav-inner">
-            <a href="index.html" class="logo">
+            <a href="index.php" class="logo">
              <img src="images/newnexlogo.webp" alt="Nexus Property Logo" class="logo-img" width="120" height="56">
             </a>
             <ul class="nav-menu" id="navMenu">
-                <li><a href="index.html#home">Home</a></li>
-                <li><a href="index.html#about">About Us</a></li>
-                <li><a href="index.html#team">Our Team</a></li>
-                <li><a href="index.html#properties">Property</a></li>
-                <li><a href="index.html#blog">Blog</a></li>
-                <li><a href="index.html#gallery">Gallery &amp; Videos</a></li>
-                <li><a href="index.html#contact">Contact Us</a></li>
+                <li><a href="index.php#home">Home</a></li>
+                <li><a href="index.php#about">About Us</a></li>
+                <li><a href="index.php#team">Our Team</a></li>
+                <li><a href="index.php#properties">Property</a></li>
+                <li><a href="index.php#blog">Blog</a></li>
+                <li><a href="index.php#gallery">Gallery &amp; Videos</a></li>
+                <li><a href="index.php#contact">Contact Us</a></li>
             </ul>
-            <a href="index.html#contact" class="btn-cta">Book Site Visit</a>
+            <a href="index.php#contact" class="btn-cta">Book Site Visit</a>
             <button class="hamburger" id="hamburger" aria-label="Open navigation menu" aria-expanded="false" aria-controls="navMenu">
                 <span></span><span></span><span></span>
             </button>
@@ -49,9 +49,9 @@
     <!-- Breadcrumb -->
     <div class="container">
         <div class="breadcrumb">
-            <a href="index.html">Home</a>
+            <a href="index.php">Home</a>
             <span class="breadcrumb-separator">/</span>
-            <a href="index.html#blog">Blog</a>
+            <a href="index.php#blog">Blog</a>
             <span class="breadcrumb-separator">/</span>
             <span class="breadcrumb-current">Understanding RERA and Your Rights</span>
         </div>
@@ -299,7 +299,7 @@
                     <div class="blog-content">
                         <h3>Top 5 Luxury Localities to Invest in 2026</h3>
                         <p>Explore the most promising luxury real estate destinations that offer excellent returns and premium lifestyle.</p>
-                        <a href="blog1.html" class="btn-small">Read More</a>
+                        <a href="blog1.php" class="btn-small">Read More</a>
                     </div>
                 </div>
                 <div class="blog-card">
@@ -310,7 +310,7 @@
                     <div class="blog-content">
                         <h3>How to Choose the Perfect Luxury Home</h3>
                         <p>A comprehensive guide to finding your dream luxury property with expert tips on location, design and value.</p>
-                        <a href="blog2.html" class="btn-small">Read More</a>
+                        <a href="blog2.php" class="btn-small">Read More</a>
                     </div>
                 </div>
                 <div class="blog-card">
@@ -321,7 +321,7 @@
                     <div class="blog-content">
                         <h3>Understanding RERA and Your Rights</h3>
                         <p>Everything you need to know about RERA registration and how it protects your investment in real estate.</p>
-                        <a href="blog3.html" class="btn-small">Current Article</a>
+                        <a href="blog3.php" class="btn-small">Current Article</a>
                     </div>
                 </div>
             </div>
@@ -336,7 +336,7 @@
             <p>
                 All Nexus Property projects are fully RERA-registered and compliant with all regulations. Invest with confidence knowing your rights are protected. Contact us for more information about our premium properties.
             </p>
-            <a href="index.html#contact" class="btn-primary">Get More Information</a>
+            <a href="index.php#contact" class="btn-primary">Get More Information</a>
         </div>
     </section>
 
@@ -344,7 +344,7 @@
     <footer class="footer">
         <div class="container footer-inner">
             <div class="footer-col">
-                <a href="index.html" class="footer-logo">
+                <a href="index.php" class="footer-logo">
                     <img src="images/logo.webp" alt="Nexus Property Logo" class="logo-img" width="120" height="56" loading="lazy">
                 </a>
                 <p>Building dreams and creating futures since 2001. Your trusted partner in luxury real estate across India.</p>
@@ -357,11 +357,11 @@
             <div class="footer-col">
                 <h4>Quick Links</h4>
                 <ul>
-                    <li><a href="index.html#home">Home</a></li>
-                    <li><a href="index.html#about">About Us</a></li>
-                    <li><a href="index.html#properties">Properties</a></li>
-                    <li><a href="index.html#team">Our Team</a></li>
-                    <li><a href="index.html#contact">Contact Us</a></li>
+                    <li><a href="index.php#home">Home</a></li>
+                    <li><a href="index.php#about">About Us</a></li>
+                    <li><a href="index.php#properties">Properties</a></li>
+                    <li><a href="index.php#team">Our Team</a></li>
+                    <li><a href="index.php#contact">Contact Us</a></li>
                 </ul>
             </div>
             <div class="footer-col">

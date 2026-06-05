@@ -8,8 +8,8 @@
                 <h1>Simple Steps,<br>to Your Dream Home</h1>
                 <p class="hero-desc">Discover the finest luxury properties handpicked for discerning buyers. We bring you premium residences that redefine modern living with elegance and sophistication.</p>
                 <div class="hero-buttons">
-                    <a href="properties.html" class="btn-primary">Explore Properties</a>
-                    <a href="contact.html" class="btn-outline">Contact Us</a>
+                    <a href="properties.php" class="btn-primary">Explore Properties</a>
+                    <a href="contact.php" class="btn-outline">Contact Us</a>
                 </div>
                 <div class="hero-stats">
                     <div class="stat">

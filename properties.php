@@ -16,7 +16,7 @@
                         <p class="property-location"><svg viewBox="0 0 24 24" width="1em" height="1em" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" class="icon" aria-hidden="true"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg> Pari Chawk - 20 min</p>
                         <div class="property-bottom">
                             <span class="property-price">₹3.5 Cr</span>
-                            <a href="properties2.html" class="btn-small">View Details</a>
+                            <a href="properties2.php" class="btn-small">View Details</a>
                         </div>
                     </div>
                 </div>
@@ -30,7 +30,7 @@
                         <p class="property-location"><svg viewBox="0 0 24 24" width="1em" height="1em" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" class="icon" aria-hidden="true"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg> Jewar International Airport - 20 min</p>
                         <div class="property-bottom">
                             <span class="property-price">₹1.8 Cr</span>
-                            <a href="properties2.html" class="btn-small">View Details</a>
+                            <a href="properties2.php" class="btn-small">View Details</a>
                         </div>
                     </div>
                 </div>
@@ -44,7 +44,7 @@
                         <p class="property-location"><svg viewBox="0 0 24 24" width="1em" height="1em" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" class="icon" aria-hidden="true"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg> Whitefield, Bangalore</p>
                         <div class="property-bottom">
                             <span class="property-price">₹2.9 Cr</span>
-                            <a href="contact.html" class="btn-small">View Details</a>
+                            <a href="contact.php" class="btn-small">View Details</a>
                         </div>
                     </div>
                 </div>
@@ -58,7 +58,7 @@
                         <p class="property-location"><svg viewBox="0 0 24 24" width="1em" height="1em" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" class="icon" aria-hidden="true"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg> Bandra West, Mumbai</p>
                         <div class="property-bottom">
                             <span class="property-price">₹5.2 Cr</span>
-                            <a href="contact.html" class="btn-small">View Details</a>
+                            <a href="contact.php" class="btn-small">View Details</a>
                         </div>
                     </div>
                 </div>
