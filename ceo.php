@@ -35,8 +35,8 @@
         <!-- Text content -->
         <div class="hero-text">
             <p class="page-hero-breadcrumb">
-                <a href="index.html">Home</a> &nbsp;/&nbsp;
-                <a href="about.html">About Us</a> &nbsp;/&nbsp;
+                <a href="index.php">Home</a> &nbsp;/&nbsp;
+                <a href="about.php">About Us</a> &nbsp;/&nbsp;
                 <span>CEO</span>
             </p>
             <h1>Chief Executive Officer</h1>

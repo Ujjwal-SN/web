@@ -36,8 +36,8 @@
         <!-- Txt cntnt-->
         <div class="hero-text">
             <p class="page-hero-breadcrumb">
-                <a href="index.html">Home</a> &nbsp;/&nbsp;
-                <a href="about.html">About Us</a> &nbsp;/&nbsp;
+                <a href="index.php">Home</a> &nbsp;/&nbsp;
+                <a href="about.php">About Us</a> &nbsp;/&nbsp;
                 <span>What We Do</span>
             </p>
             <h1>Who We Are</h1>
