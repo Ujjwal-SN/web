@@ -30,7 +30,6 @@
             </div>
         </div>
     </header>
-   
 <!-- Page Hero -->
     <section class="page-hero">
         <div class="container">
@@ -50,7 +49,6 @@
       <!-- Near Location -->
       <div class="section">
         <h2>Near Location</h2>
-
         <ul>
           <li>Pari Chawk - 20 min</li>
           <li>Jewar International Airport - 20 min</li>
@@ -61,17 +59,13 @@
           <li>Hospital, Schools, Market Etc</li>
         </ul>
       </div>
-
       <!-- Services -->
       <div class="section">
         <h2>Services</h2>
         <div class="services">
           <p>Full Developed Society, Secure Gated Society</p>
-
           <p>24/7 Electricity, Water, Sewer, RCC Road</p>
-
           <p>Pakki Registry, Mutation, Possession</p>
-
           <p>Future Secured Investment / Personal Use</p>
         </div>
       </div>

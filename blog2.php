@@ -25,7 +25,6 @@
         </div>
     </header>
     <?php include 'layout/navbar.php'; ?>
-
     <!-- Breadcrumb -->
     <div class="container">
         <div class="breadcrumb">
@@ -36,7 +35,6 @@
             <span class="breadcrumb-current">How to Choose the Perfect Luxury Home</span>
         </div>
     </div>
-
     <!-- Blog Detail Content -->
     <section class="blog-detail-section">
         <div class="blog-detail-content">
@@ -51,11 +49,9 @@
                     A comprehensive guide to finding your dream luxury property with expert tips on location, design, and value. Learn the essential factors that successful luxury home buyers consider before making their investment.
                 </p>
             </div>
-
             <div class="blog-detail-hero">
                 <img src="images/newblog2.webp" alt="Beautiful luxury home interior and exterior" width="900" height="500" loading="lazy">
             </div>
-
             <div class="blog-section">
                 <h2>Introduction</h2>
                 <p>
@@ -65,7 +61,6 @@
                     This comprehensive guide will walk you through the essential factors that experienced luxury home buyers evaluate before making their investment decision. Whether you're a first-time luxury buyer or an experienced investor, these insights will help you make the right choice.
                 </p>
             </div>
-
             <div class="blog-section">
                 <h2>1. Location - The Foundation of Value</h2>
                 <h3>Why Location Matters Most</h3>
@@ -84,7 +79,6 @@
                     <p>"A luxury home in the right location can appreciate by 10-15% annually, while the same property in a less desirable area may stagnate or depreciate."</p>
                 </div>
             </div>
-
             <div class="blog-section">
                 <h2>2. Architecture and Design Excellence</h2>
                 <h3>Evaluating Property Design</h3>
@@ -111,7 +105,6 @@
                     <li>Paint and wall finishes - professional quality</li>
                 </ul>
             </div>
-
             <div class="blog-section">
                 <h2>3. Amenities and Facilities</h2>
                 <h3>What Luxury Amenities Should You Expect</h3>
@@ -128,7 +121,6 @@
                     <li>Multi-level parking with reserved spaces</li>
                 </ul>
             </div>
-
             <div class="blog-section">
                 <h2>4. Investment Potential and Value</h2>
                 <h3>Understanding Long-Term Value</h3>
@@ -143,7 +135,6 @@
                     <li>Population growth and economic development trends</li>
                 </ul>
             </div>
-
             <div class="blog-section">
                 <h2>5. Legal Documentation and Compliance</h2>
                 <h3>Ensure Your Investment is Secure</h3>
@@ -159,7 +150,6 @@
                     <li>Community rules and regulations</li>
                 </ul>
             </div>
-
             <div class="blog-section">
                 <h2>6. Cost of Ownership</h2>
                 <h3>Calculate Total Cost of Ownership</h3>
@@ -177,7 +167,6 @@
                     <p><strong>Pro Tip:</strong> Budget for 0.5-1% of the property value annually for maintenance and upkeep in luxury residential projects.</p>
                 </div>
             </div>
-
             <div class="blog-section">
                 <h2>7. Financing Options</h2>
                 <h3>Smart Financial Planning</h3>
@@ -226,7 +215,6 @@
                     <li>✓ You're comfortable with the neighborhood</li>
                 </ul>
             </div>
-
             <div class="blog-section">
                 <h2>Conclusion</h2>
                 <p>
@@ -239,11 +227,9 @@
                     <p><strong>Ready to find your perfect luxury home?</strong> Schedule a consultation with our expert team and explore our exclusive collection of premium properties.</p>
                 </div>
             </div>
-
             <a href="index.php#blog" class="back-to-blog">← Back to Blog</a>
         </div>
     </section>
-
     <!-- Related Posts -->
     <section class="related-posts">
         <div class="container">
@@ -285,7 +271,6 @@
             </div>
         </div>
     </section>
-
     <!-- CTA Section -->
     <section class="blog-cta-section">
         <div class="container text-center">

@@ -25,7 +25,6 @@
         </div>
     </header>
    <?php include 'layout/navbar.php'; ?>
-
     <!-- Breadcrumb -->
     <div class="container">
         <div class="breadcrumb">
@@ -36,7 +35,6 @@
             <span class="breadcrumb-current">Top 5 Luxury Localities to Invest in 2026</span>
         </div>
     </div>
-
     <!-- Blog Detail Content -->
     <section class="blog-detail-section">
         <div class="blog-detail-content">
@@ -51,11 +49,9 @@
                     Explore the most promising luxury real estate destinations that offer excellent returns and premium lifestyle. Our expert analysis reveals the top localities where luxury properties are in high demand and offer strong investment potential.
                 </p>
             </div>
-
             <div class="blog-detail-hero">
                 <img src="images/newblog1.webp" alt="Luxury residential area with premium properties" width="900" height="500" loading="lazy">
             </div>
-
             <div class="blog-section">
                 <h2>Introduction</h2>
                 <p>
@@ -65,7 +61,6 @@
                     In this comprehensive guide, we'll explore the five most promising luxury localities that offer excellent property appreciation potential, world-class amenities, and premium lifestyle options.
                 </p>
             </div>
-
             <div class="blog-section">
                 <h2>1. Pari Chawk - The Crown Jewel of Delhi NCR</h2>
                 <h3>Why It's a Top Choice</h3>
@@ -83,7 +78,6 @@
                     <p>"Properties in Pari Chawk have shown consistent 8-10% annual appreciation, making it one of the safest luxury investments in the region."</p>
                 </div>
             </div>
-
             <div class="blog-section">
                 <h2>2. Jewar - The Future Gateway</h2>
                 <h3>Investment Potential</h3>
@@ -98,7 +92,6 @@
                     <li>Strategic location between Delhi and Agra</li>
                 </ul>
             </div>
-
             <div class="blog-section">
                 <h2>3. Whitefield, Bangalore - Tech City Luxury</h2>
                 <h3>Premium Living in India's Silicon Valley</h3>
@@ -113,7 +106,6 @@
                     <li>Strong rental income potential for investors</li>
                 </ul>
             </div>
-
             <div class="blog-section">
                 <h2>4. Bandra West, Mumbai - The Icon of Luxury</h2>
                 <h3>Mumbai's Most Coveted Address</h3>
@@ -128,7 +120,6 @@
                     <li>Excellent rental yields for investment properties</li>
                 </ul>
             </div>
-
             <div class="blog-section">
                 <h2>5. Whitefield Extensions - Emerging Luxury</h2>
                 <h3>The Next Frontier in Bangalore Real Estate</h3>
@@ -143,7 +134,6 @@
                     <li>Increasing investor interest and property appreciation</li>
                 </ul>
             </div>
-
             <div class="blog-section">
                 <h2>Key Investment Insights</h2>
                 <h3>What Makes These Localities Special</h3>
@@ -158,7 +148,6 @@
                     <li><strong>Capital Appreciation:</strong> Historical data shows consistent property value growth</li>
                 </ul>
             </div>
-
             <div class="blog-section">
                 <h2>Tips for Making the Right Investment Choice</h2>
                 <h3>Expert Guidance for Luxury Real Estate Investors</h3>
@@ -174,7 +163,6 @@
                     <li>Evaluate rental income potential for investment properties</li>
                 </ul>
             </div>
-
             <div class="blog-section">
                 <h2>Conclusion</h2>
                 <p>
@@ -187,11 +175,9 @@
                     <p><strong>Ready to invest in luxury real estate?</strong> Connect with our team for personalized recommendations and exclusive property listings.</p>
                 </div>
             </div>
-
             <a href="index.php#blog" class="back-to-blog">← Back to Blog</a>
         </div>
     </section>
-
     <!-- Related Posts -->
     <section class="related-posts">
         <div class="container">
@@ -233,7 +219,6 @@
             </div>
         </div>
     </section>
-
     <!-- CTA Section -->
     <section class="blog-cta-section">
         <div class="container text-center">
@@ -245,5 +230,4 @@
             <a href="index.php#contact" class="btn-primary">Book Your Consultation</a>
         </div>
     </section>
-
     <?php include 'layout/footer.php'; ?>

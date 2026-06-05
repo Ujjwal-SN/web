@@ -65,5 +65,4 @@
             </div>
         </div>
     </section>
-   
     <?php include 'layout/footer.php'; ?>

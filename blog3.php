@@ -25,7 +25,6 @@
         </div>
     </header>
    <?php include 'layout/navbar.php'; ?>
-
     <!-- Breadcrumb -->
     <div class="container">
         <div class="breadcrumb">
@@ -36,7 +35,6 @@
             <span class="breadcrumb-current">Understanding RERA and Your Rights</span>
         </div>
     </div>
-
     <!-- Blog Detail Content -->
     <section class="blog-detail-section">
         <div class="blog-detail-content">
@@ -51,11 +49,9 @@
                     Everything you need to know about RERA registration and how it protects your investment in real estate. Learn how RERA ensures transparency and safeguards buyer interests in every property transaction.
                 </p>
             </div>
-
             <div class="blog-detail-hero">
                 <img src="images/newblog3.webp" alt="Legal documentation and property registration documents" width="900" height="500" loading="lazy">
             </div>
-
             <div class="blog-section">
                 <h2>What is RERA?</h2>
                 <h3>Understanding the Real Estate Regulatory Authority Act</h3>
@@ -85,7 +81,6 @@
                     <p>"RERA has transformed the real estate sector by ensuring that developers are accountable and buyers have legal protection and recourse mechanisms."</p>
                 </div>
             </div>
-
             <div class="blog-section">
                 <h2>Key Features of RERA</h2>
                 <h3>What RERA Provides to Buyers</h3>
@@ -102,7 +97,6 @@
                     <li><strong>Interest on Delayed Refunds:</strong> If projects are cancelled, refunds include interest</li>
                 </ul>
             </div>
-
             <div class="blog-section">
                 <h2>RERA Registration: What You Need to Know</h2>
                 <h3>How to Verify RERA Registration</h3>
@@ -130,7 +124,6 @@
                     <li>Nature of the project (residential, commercial, mixed-use)</li>
                 </ul>
             </div>
-
             <div class="blog-section">
                 <h2>Your Rights as a Buyer Under RERA</h2>
                 <h3>Legal Protections Provided</h3>
@@ -148,7 +141,6 @@
                     <li><strong>Right to Transparency:</strong> Full disclosure of all project costs and charges</li>
                 </ul>
             </div>
-
             <div class="blog-section">
                 <h2>Penalties Under RERA</h2>
                 <h3>How RERA Ensures Compliance</h3>
@@ -167,7 +159,6 @@
                     <p><strong>These strict penalties ensure that developers maintain high standards and comply with all regulations.</strong></p>
                 </div>
             </div>
-
             <div class="blog-section">
                 <h2>How to File a Complaint Under RERA</h2>
                 <h3>Your Grievance Redressal Process</h3>
@@ -193,7 +184,6 @@
                     <li>Unfair cancellation policies</li>
                 </ul>
             </div>
-
             <div class="blog-section">
                 <h2>Checklist: RERA Compliance Before Buying</h2>
                 <div class="blog-highlight">
@@ -212,7 +202,6 @@
                     <li>✓ Environmental clearance is obtained</li>
                 </ul>
             </div>
-
             <div class="blog-section">
                 <h2>Differences Between RERA-Registered and Non-Registered Projects</h2>
                 <table style="width: 100%; border-collapse: collapse; margin: 30px 0;">
@@ -248,7 +237,6 @@
                     </tr>
                 </table>
             </div>
-
             <div class="blog-section">
                 <h2>Conclusion</h2>
                 <p>
@@ -261,11 +249,9 @@
                     <p><strong>When buying luxury properties, always choose RERA-registered projects from reputable developers like Nexus Property for complete peace of mind and protection.</strong></p>
                 </div>
             </div>
-
             <a href="index.php#blog" class="back-to-blog">← Back to Blog</a>
         </div>
     </section>
-
     <!-- Related Posts -->
     <section class="related-posts">
         <div class="container">
@@ -307,7 +293,6 @@
             </div>
         </div>
     </section>
-
     <!-- CTA Section -->
     <section class="blog-cta-section">
         <div class="container text-center">
@@ -319,5 +304,4 @@
             <a href="index.php#contact" class="btn-primary">Get More Information</a>
         </div>
     </section>
-
     <?php include 'layout/footer.php'; ?>

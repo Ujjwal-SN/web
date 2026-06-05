@@ -10,7 +10,6 @@
      <link rel="stylesheet" href="managing-director.css">
 </head>
 <body>
-
     <!-- Header -->
     <header class="top-bar">
         <div class="container top-bar-inner">
@@ -29,10 +28,8 @@
     <section class="page-hero">
         <!-- Background image -->
         <img src="images/hero_banner.webp" alt="Nexus Property luxury banner" class="hero-bg" width="1600" height="420" loading="eager">
-
         <!-- Dark overlay -->
         <div class="hero-overlay"></div>
-
         <!-- Text content -->
         <div class="hero-text">
             <p class="page-hero-breadcrumb">
@@ -44,11 +41,9 @@
             <p>Experience, Trust &amp; Excellence</p>
         </div>
     </section>
-
     <!-- Profile- Image Left -Para Right -->
     <section class="profile-section">
         <div class="container profile-inner">
-
             <!-- Img -->
             <div class="profile-image-card">
                 <img
@@ -63,7 +58,6 @@
                     <p>Managing Director</p>
                 </div>
             </div>
-
             <!-- Text Content -->
             <div class="profile-content">
                 <h2>Mohd Anjum</h2>
@@ -77,7 +71,6 @@ Under his guidance, Nexus Property has completed numerous successful residential
 
 Beyond business, Mohd Anjum is committed to giving back to the community and upholding the highest standards of integrity. He is dedicated to making Nexus Property a symbol of reliability and progress in the real estate sector, and he continues to inspire his team to achieve new heights of success and service excellence.
                 </p>
-
                 <!-- Green Tick -->
                 <div class="md-points">
                     <div class="md-point">
@@ -98,7 +91,6 @@ Beyond business, Mohd Anjum is committed to giving back to the community and uph
                     </div>
                 </div>
             </div>
-
         </div>
     </section>
      <?php include 'layout/footer.php'; ?>

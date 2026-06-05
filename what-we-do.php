@@ -10,8 +10,7 @@
     <link rel="stylesheet" href="what-we-do.css">
 </head>
 <body>
-
-    <!-- Header -->
+ <!-- Header -->
     <header class="top-bar">
         <div class="container top-bar-inner">
             <div class="top-bar-left">
@@ -29,10 +28,8 @@
     <section class="page-hero">
         <!-- Bcknd img -->
         <img src="images/hero_banner.webp" alt="Nexus Property luxury real estate banner" class="hero-bg" width="100%" height="380" loading="lazy">
-
         <!-- Dark overlay -->
         <div class="hero-overlay"></div>
-
         <!-- Txt cntnt-->
         <div class="hero-text">
             <p class="page-hero-breadcrumb">
@@ -44,7 +41,6 @@
             <p>Learn more about our Company, Team and Vision.</p>
         </div>
     </section>
-
     <!-- Imf Left, Txt Rght -->
     <section class="wwd-intro" id="what-we-do">
         <div class="container wwd-intro-inner">
@@ -53,7 +49,6 @@
             <div class="wwd-image">
                 <img src="images/newabout.webp" alt="Nexus Property team at work" width="600" height="460" loading="eager">
             </div>
-
             <!-- Txt -->
             <div class="wwd-text">
                 <p class="section-subtitle">What We Do</p>
@@ -62,10 +57,8 @@
                  Nexus Property is a leading real estate company in Delhi NCR with 25+ years of experience and 500+ happy clients. We specialize in residential and commercial projects, offering a wide range of properties. Our reputation is built on trust, transparency, and a customer-focused approach. We are committed to providing dedicated support and value to every client.
                 </p>
             </div>
-
         </div>
     </section>
-
     <!--Vision & Mission -->
     <section class="wwd-vm">
         <div class="container">
@@ -88,7 +81,6 @@
             </div>
         </div>
     </section>
-
     <!--  Why Chose Us -->
     <section class="wwd-why">
         <div class="container">
@@ -97,37 +89,30 @@
                 <h2>Why Choose Nexus Property</h2>
             </div>
             <div class="wwd-why-grid">
-
                 <div class="wwd-why-card">
                     <h4>Trusted &amp; Transparent</h4>
                     <p>No hidden charges, no misleading information. RERA registered projects only.</p>
                 </div>
-
                 <div class="wwd-why-card">
                     <h4>Expert Team</h4>
                     <p>Experienced advisors with deep local market knowledge guiding every buyer and investor.</p>
                 </div>
-
                 <div class="wwd-why-card">
                     <h4>End-to-End Service</h4>
                     <p>From the first site visit to final registration — support at every stage of your journey.</p>
                 </div>
-
                 <div class="wwd-why-card">
                     <h4>Prime Locations</h4>
                     <p>Properties in Delhi NCR, Noida, Greater Noida, Mumbai, and other top cities.</p>
                 </div>
-
                 <div class="wwd-why-card">
                     <h4>Best Value</h4>
                     <p>We negotiate on your behalf to ensure the best deal whether buying, selling, or investing.</p>
                 </div>
-
                 <div class="wwd-why-card">
                     <h4>Post-Sale Support</h4>
                     <p>Our relationship doesn't end at the sale. We stay connected for any post-purchase needs.</p>
                 </div>
-
             </div>
         </div>
     </section>

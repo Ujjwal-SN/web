@@ -43,7 +43,6 @@
             <p>Vision, Leadership &amp; Dedication</p>
         </div>
     </section>
-
     <!-- Profile: Image Left · Para Right -->
     <section class="profile-section">
         <div class="container profile-inner">
@@ -55,14 +54,13 @@
                     alt="Shazia Aftab – CEO, Nexus Property"
                     width="420"
                     height="520"
-                    loading="eager"
+                    loading="lazy"
                 >
                 <div class="profile-image-badge">
                     <h3>Shazia Aftab</h3>
                     <p>Chief Executive Officer</p>
                 </div>
             </div>
-
             <!-- Text Content -->
             <div class="profile-content">
                 <h2>Shazia Aftab</h2>
@@ -76,7 +74,6 @@ Under her guidance, Nexus Property has expanded its portfolio of residential and
 
 Beyond her professional achievements, Shazia Aftab is dedicated to community development and social responsibility. She believes in making a positive impact through ethical leadership, continuous learning, and a relentless pursuit of excellence in every aspect of the business.
                 </p>
-
                 <!-- Green Tick Points -->
                 <div class="ceo-points">
                     <div class="ceo-point">
