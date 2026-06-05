@@ -14,7 +14,7 @@
                     <div class="blog-content">
                         <h3>Top 5 Luxury Localities to Invest in 2026</h3>
                         <p>Explore the most promising luxury real estate destinations that offer excellent returns and premium lifestyle.</p>
-                        <a href="blog1.html" class="btn-small">Read More</a>
+                        <a href="blog1.php" class="btn-small">Read More</a>
                     </div>
                 </div>
                 <div class="blog-card">
@@ -25,7 +25,7 @@
                     <div class="blog-content">
                         <h3>How to Choose the Perfect Luxury Home</h3>
                         <p>A comprehensive guide to finding your dream luxury property with expert tips on location, design and value.</p>
-                        <a href="blog2.html" class="btn-small">Read More</a>
+                        <a href="blog2.php" class="btn-small">Read More</a>
                     </div>
                 </div>
                 <div class="blog-card">
@@ -36,7 +36,7 @@
                     <div class="blog-content">
                         <h3>Understanding RERA and Your Rights</h3>
                         <p>Everything you need to know about RERA registration and how it protects your investment in real estate.</p>
-                        <a href="blog3.html" class="btn-small">Read More</a>
+                        <a href="blog3.php" class="btn-small">Read More</a>
                     </div>
                 </div>
             </div>
