@@ -91,7 +91,6 @@ We believe in building long-term relationships and providing value-driven servic
                         <span>Post-Sale Customer Support</span>
                     </div>
                 </div>
-                <a href="contact.html" class="btn-primary">Learn More</a>
             </div>
         </div>
     </section>
@@ -111,7 +110,7 @@ We believe in building long-term relationships and providing value-driven servic
                         <p class="property-location"><svg viewBox="0 0 24 24" width="1em" height="1em" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" class="icon" aria-hidden="true"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg> Pari Chawk - 20 min</p>
                         <div class="property-bottom">
                             <span class="property-price">₹3.5 Cr</span>
-                            <a href="contact.html" class="btn-small">View Details</a>
+                            <a href="properties2.php" class="btn-small">View Details</a>
                         </div>
                     </div>
                 </div>
@@ -125,7 +124,7 @@ We believe in building long-term relationships and providing value-driven servic
                         <p class="property-location"><svg viewBox="0 0 24 24" width="1em" height="1em" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" class="icon" aria-hidden="true"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg> Jewar International Airport - 20 min</p>
                         <div class="property-bottom">
                             <span class="property-price">₹1.8 Cr</span>
-                            <a href="contact.html" class="btn-small">View Details</a>
+                            <a href="properties2.php" class="btn-small">View Details</a>
                         </div>
                     </div>
                 </div>
@@ -139,7 +138,7 @@ We believe in building long-term relationships and providing value-driven servic
                         <p class="property-location"><svg viewBox="0 0 24 24" width="1em" height="1em" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" class="icon" aria-hidden="true"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg> Whitefield, Bangalore</p>
                         <div class="property-bottom">
                             <span class="property-price">₹2.9 Cr</span>
-                            <a href="contact.html" class="btn-small">View Details</a>
+                            <a href="contact.php" class="btn-small">View Details</a>
                         </div>
                     </div>
                 </div>
@@ -153,7 +152,7 @@ We believe in building long-term relationships and providing value-driven servic
                         <p class="property-location"><svg viewBox="0 0 24 24" width="1em" height="1em" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" class="icon" aria-hidden="true"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg> Bandra West, Mumbai</p>
                         <div class="property-bottom">
                             <span class="property-price">₹5.2 Cr</span>
-                            <a href="contact.html" class="btn-small">View Details</a>
+                            <a href="contact.php" class="btn-small">View Details</a>
                         </div>
                     </div>
                 </div>
@@ -208,7 +207,7 @@ We believe in building long-term relationships and providing value-driven servic
                     <div class="blog-content">
                         <h3>Top 5 Luxury Localities to Invest in 2026</h3>
                         <p>Explore the most promising luxury real estate destinations that offer excellent returns and premium lifestyle.</p>
-                        <a href="blog1.html" class="btn-small">Read More</a>
+                        <a href="blog1.php" class="btn-small">Read More</a>
                     </div>
                 </div>
                 <div class="blog-card">
@@ -219,7 +218,7 @@ We believe in building long-term relationships and providing value-driven servic
                     <div class="blog-content">
                         <h3>How to Choose the Perfect Luxury Home</h3>
                         <p>A comprehensive guide to finding your dream luxury property with expert tips on location, design and value.</p>
-                        <a href="blog2.html" class="btn-small">Read More</a>
+                        <a href="blog2.php" class="btn-small">Read More</a>
                     </div>
                 </div>
                 <div class="blog-card">
@@ -230,7 +229,7 @@ We believe in building long-term relationships and providing value-driven servic
                     <div class="blog-content">
                         <h3>Understanding RERA and Your Rights</h3>
                         <p>Everything you need to know about RERA registration and how it protects your investment in real estate.</p>
-                        <a href="blog3.html" class="btn-small">Read More</a>
+                        <a href="blog3.php" class="btn-small">Read More</a>
                     </div>
                 </div>
             </div>
