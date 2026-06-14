@@ -62,13 +62,13 @@ document.addEventListener('DOMContentLoaded', function () {
         }
     });
     /* Contact form submit */
-    if (contactForm) {
-        contactForm.addEventListener('submit', function (e) {
-            e.preventDefault();
-            alert('Thank you! We will get back to you shortly.');
-            contactForm.reset();
-        });
-    }
+    // if (contactForm) {
+    //     contactForm.addEventListener('submit', function (e) {
+    //         e.preventDefault();
+    //         alert('Thank you! We will get back to you shortly.');
+    //         contactForm.reset();
+    //     });
+    // }
     /* Gallery Tabs */
     var galleryTabs = document.querySelectorAll('.gallery-tab');
     var galleryPanels = document.querySelectorAll('.gallery-panel');
